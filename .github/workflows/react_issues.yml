@@ -16,4 +16,8 @@ jobs:
 
       - name: Add Thumbs Up Reaction
         run: |
-          curl https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions -H "Accept: application/vnd.github.squirrel-girl-preview" --data '{"content":"-1"}' -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"
+          curl https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions -H "Accept: application/vnd.github.squirrel-girl-preview" --data '{"content":"+1"}' -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Add Confused Reaction
+        run: |
+          curl https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions -H "Accept: application/vnd.github.squirrel-girl-preview" --data '{"content":"confused"}' -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"
