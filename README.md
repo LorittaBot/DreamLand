@@ -1,4 +1,4 @@
-<h1 align="center">🙋‍♀💡 Loritta's DreamLand 💡</h1>
+<h1 align="center">💡 Loritta's DreamLand 💡</h1>
 <img height="250" src="https://loritta.website/v3/assets/img/categories/miscellaneous/miscellaneous_298w.png" align="right">
 
 O lugar para você sugerir novas funcionalidades para a Loritta!
