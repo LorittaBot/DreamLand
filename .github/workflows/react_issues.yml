@@ -1,13 +1,13 @@
 name: Auto React
 
 on:
-  issue_comment:
-    types: [created]
+  issues:
+    types: [opened]
 
 jobs:
-  issue_created:
+  issue_opened:
     # This job only runs for issue comments
-    name: Issue created
+    name: Issue opened
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
