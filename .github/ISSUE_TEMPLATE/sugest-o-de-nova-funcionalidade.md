@@ -2,7 +2,7 @@
 name: Sugestão de Nova Funcionalidade
 about: Sugira algo novo para a Loritta!
 title: ''
-labels: "enhancement, Português \U0001F1E7\U0001F1F7"
+labels: "Português \U0001F1E7\U0001F1F7, enhancement"
 assignees: ''
 
 ---
@@ -17,3 +17,7 @@ Sugestão incrível maravilhosa chocante que vai arrebentar o mundo...
 **Porque a sua sugestão deve ser adicionada na Loritta?**
 
 Texto texto texto texto texto...
+
+**Considerações Finais**
+
+Se você quiser colocar uma imagem de um gatinho muito fofo aqui, pode! Ou se não quiser, pode deletar esta seção...
