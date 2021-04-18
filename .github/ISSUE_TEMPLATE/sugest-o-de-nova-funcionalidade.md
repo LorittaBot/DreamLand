@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+<!-- Lembre-se, aqui serve para sugerir novas funcionalidades para a Loritta! -->
+<!-- Se você precisa de ajuda com a Loritta, visite o nosso servidor de suporte! https://loritta.website/br/support -->
+
 **Qual é a sua sugestão?**
 
 Sugestão incrível maravilhosa chocante que vai arrebentar o mundo...
