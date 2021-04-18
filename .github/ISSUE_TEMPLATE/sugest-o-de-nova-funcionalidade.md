@@ -2,7 +2,7 @@
 name: Sugestão de Nova Funcionalidade
 about: Sugira algo novo para a Loritta!
 title: ''
-labels: enhancement
+labels: "enhancement, Português \U0001F1E7\U0001F1F7"
 assignees: ''
 
 ---
