@@ -1,6 +1,6 @@
-on:
-  issue_comment:
-    types: [created]
+name: Continuous Integration
+
+on: [issue_comment]
 
 jobs:
   issue_commented:
