@@ -13,3 +13,15 @@ jobs:
     steps:
       - run: |
           echo "Comment on issue #${{ github.event.issue.number }}"
+
+      # Add reactions
+      - uses: octokit/request-action@v2.x
+        id: add_thumbs_up_reaction
+        with:
+          route: POST /repos/{owner}/{repo}/issues/comments/{comment_id}/reactions
+          owner: MrPowerGamerBR
+          repo: owo
+          comment_id: "${{ github.event.issue.number }}"
+          output: "+1"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
