@@ -2,7 +2,7 @@
 name: Reportar um Problema/Bug
 about: "Aaaah, bugs e insetos! \U0001F41B - Reporte bugs na Loritta!"
 title: ''
-labels: "bug \U0001F41E, Português \U0001F1E7\U0001F1F7"
+labels: "Bug \U0001F41E, Português \U0001F1E7\U0001F1F7"
 assignees: ''
 
 ---
